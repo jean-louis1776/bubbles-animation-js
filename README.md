@@ -4,7 +4,7 @@ This is a mini-project that demonstrates the ability to create a bubbles animati
 
 ## Demo
 
-- You can see demo [HERE]()
+- You can see demo [HERE](https://bubbles-animation-js.vercel.app/)
 
 ## Screenshots
 
