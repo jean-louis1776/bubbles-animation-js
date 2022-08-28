@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #fff;
+}
+body h2 {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+  font-size: 12vw;
+  line-height: 1em;
+  font-weight: 800;
+  color: #333;
+  text-transform: uppercase;
+}
+body i {
+  position: absolute;
+  display: block;
+  background-color: #000;
+  border-radius: 50%;
+  -webkit-animation: animate 5s linear infinite;
+          animation: animate 5s linear infinite;
+}
+body i:nth-child(5n+1) {
+  background-color: #fff;
+}
+body i:nth-child(5n+2) {
+  background-color: #ffb03c;
+}
+body i:nth-child(5n+3) {
+  background-color: #fff;
+  border: 5px solid #ff9933;
+}
+body i:nth-child(5n+4) {
+  background-color: #2bd11b;
+}
+body i:nth-child(5n+5) {
+  background-color: #fff;
+  border: 5px solid #2bd11b;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: translateY(calc(100vh + 350px));
+            transform: translateY(calc(100vh + 350px));
+  }
+  100% {
+    -webkit-transform: translateY(-300px);
+            transform: translateY(-300px);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: translateY(calc(100vh + 350px));
+            transform: translateY(calc(100vh + 350px));
+  }
+  100% {
+    -webkit-transform: translateY(-300px);
+            transform: translateY(-300px);
+  }
+}
